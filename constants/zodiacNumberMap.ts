@@ -1,0 +1,16 @@
+export const zodiacNumberMap = {
+  牡羊座: 1,
+  金牛座: 2,
+  雙子座: 3,
+  巨蟹座: 4,
+  獅子座: 5,
+  處女座: 6,
+  天秤座: 7,
+  天蠍座: 8,
+  射手座: 9,
+  摩羯座: 1,
+  水瓶座: 2,
+  雙魚座: 3,
+} as const;
+
+export type ZodiacSign = keyof typeof zodiacNumberMap;
